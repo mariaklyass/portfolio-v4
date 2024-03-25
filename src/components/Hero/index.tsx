@@ -19,7 +19,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="mt-2 sm:mt-9 text-center scroll-mt-[15rem] relative h-auto w-full"
+      className="mt-2 sm:mt-9 text-center scroll-mt-[15rem] relative h-screen w-full"
       ref={ref}
     >
       <StarrySky />
@@ -50,7 +50,7 @@ export default function Hero() {
           </div>
         </div>
         <motion.p
-          className="mb-1 md:mb-10 mt-2 md:mt-4 px-4 text-base bg-slate-50/10 mix-blend-soft-luminosity rounded-lg py-0 md:py-4 backdrop-blur-[0.5rem] shadow-lg shadow-black/5 dark:bg-[#131211]/20 text-stone-300/90 dark:text-stone-300"
+          className="max-w-3xl mb-1 md:mb-10 mt-2 md:mt-4 px-4 text-base bg-slate-50/10 mix-blend-soft-luminosity rounded-lg py-0 md:py-4 backdrop-blur-[0.5rem] shadow-lg shadow-black/5 dark:bg-[#131211]/20 text-stone-300/90 dark:text-stone-300"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{

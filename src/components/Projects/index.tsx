@@ -12,7 +12,7 @@ export default function Projects() {
     <section
       ref={ref}
       id="projects"
-      className="h-full scroll-mt-28 md:-mt-40 lg:-mt-80"
+      className="h-full scroll-mt-28 -mt-64 sm:-mt-80 md:-mt-40"
     >
       <h2 className="text-3xl font-medium capitalize mb-8 text-center pt-2 text-white dark:text-stone-400">
         My projects
